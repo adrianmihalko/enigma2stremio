@@ -2,6 +2,8 @@
 
 A Docker-based Stremio addon that streams live TV from your Enigma2 receiver (Dreambox, VU+, etc.) directly to Stremio. Automatically imports all bouquets and channels with HD support and picon logos.
 
+<img width="1209" height="689" alt="Screenshot 2025-10-05 at 02 20 20" src="https://github.com/user-attachments/assets/77a44b0b-6383-47cc-8f6a-fb60bacac29f" />
+
 ## Features
 
 - 📺 **Multi-bouquet support** - Automatically detects all TV bouquets
