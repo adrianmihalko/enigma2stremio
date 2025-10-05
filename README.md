@@ -92,3 +92,4 @@ The addon also works with AIOStreams. To install, paste your HTTPS URL into the 
 
 **URL:** `https://enigma2stremio.your-domain.com/manifest.json`
 
+**Important disclaimer**: This is for legal use only - you need to have a working subscription with your TV provider. No illegal receiving of channels, just streaming your legitimately subscribed content through Stremio's interface.
