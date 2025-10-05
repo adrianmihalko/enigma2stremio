@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  enigma2-stremio-addon:
+    image: adriankoooo/enigma2-stremio-addon:latest
+    container_name: enigma2-stremio-addon
+    ports:
+      - "${ADDON_PORT}:7000"
+    environment:
+      - ENIGMA2_IP=${ENIGMA2_IP}
+      - ENIGMA2_PORT=${ENIGMA2_PORT}
+      - ENIGMA2_STREAM_PORT=${ENIGMA2_STREAM_PORT}
+      - ENIGMA2_PICONS=${ENIGMA2_PICONS}
+      - PREFIX_CATALOG=${PREFIX_CATALOG}
+      - IGNORE_BOUQUETS=${IGNORE_BOUQUETS}
+      - IGNORE_EMPTY_BOUQUETS=${IGNORE_EMPTY_BOUQUETS}
+    restart: unless-stopped
