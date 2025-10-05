@@ -308,7 +308,7 @@ async function createManifest() {
     return {
         id: 'enigma2.multi.bouquet.addon',
         version: '2.6.0',
-        name: `Enigma2 TV (${ENIGMA2_IP})`,
+        name: `Enigma2Stremio (${ENIGMA2_IP})`,
         description: `Live TV from Enigma2 receiver at ${ENIGMA2_IP} - Multiple Bouquets`,
         resources: ['catalog', 'stream'],
         types: ['tv'],
