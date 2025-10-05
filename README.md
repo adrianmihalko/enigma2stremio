@@ -1,4 +1,4 @@
-# Enigma2 Stremio Addon
+# Enigma2Stremio Addon
 
 A Docker-based Stremio addon that streams live TV from your Enigma2 receiver (Dreambox, VU+, etc.) directly to Stremio. Automatically imports all bouquets and channels with HD support and picon logos.
 
